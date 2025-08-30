@@ -12,9 +12,21 @@
     "main": {
       "type": "hello-world",
       "settings": {}
+    },
+    "contact_form_4DnPX8": {
+      "type": "contact-form",
+      "name": "Contact Form",
+      "settings": {
+        "heading": "Get in touch",
+        "subheading": "We’d love to hear from you. Fill out the form below.",
+        "show_phone": true,
+        "button_label": "Send message",
+        "success_message": "Thank you! We’ll be in touch soon."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "contact_form_4DnPX8"
   ]
 }
