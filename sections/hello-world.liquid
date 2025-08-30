@@ -17,34 +17,34 @@
         using Liquid, Shopify's theme templating language, along with HTML, CSS, JavaScript, and JSON.
       </p>
     </div>
-    <div class="icon">
+    <div class="icon w-[300px]">
       <img src="{{ 'shoppy-x-ray.svg' | asset_url }}" width="300" height="300">
     </div>
   </div>
 </div>
 
-<div class="highlights">
-  <div class="highlight">
-    <h3>Key Concepts</h3>
-    <p class="highlight-description">
+<div class="highlights grid grid-cols-3 gap-8 mt-[50px] lg:grid-cols-1">
+  <div class="highlight flex flex-col h-full p-6 rounded-lg bg-[#eef3ff] text-[rgb(92_95_98)] leading-[1.4]">
+    <h3 class="text-base text-[rgb(32_34_35)]">Key Concepts</h3>
+    <p class="highlight-description flex-1">
       Shopify themes are a package of template files, building blocks, and supporting assets. Use these building blocks
       to create modular, customizable themes.
     </p>
     <p>{{ 'Learn more about key concepts' | link_to: 'https://shopify.dev/docs/storefronts/themes/architecture' }}</p>
   </div>
 
-  <div class="highlight">
-    <h3>Liquid</h3>
-    <p class="highlight-description">
+  <div class="highlight flex flex-col h-full p-6 rounded-lg bg-[#eef3ff] text-[rgb(92_95_98)] leading-[1.4]">
+    <h3 class="text-base text-[rgb(32_34_35)]">Liquid</h3>
+    <p class="highlight-description flex-1">
       The Liquid templating language is the backbone of Shopify themes, and is used to load dynamic content on
       storefronts. Extend Liquid objects to store and present custom data using metafields.
     </p>
     <p>{{ 'View the Liquid reference' | link_to: 'https://shopify.dev/docs/api/liquid' }}</p>
   </div>
 
-  <div class="highlight">
+  <div class="highlight flex flex-col h-full p-6 rounded-lg bg-[#eef3ff] text-[rgb(92_95_98)] leading-[1.4]">
     <h3>Best Practices</h3>
-    <p class="highlight-description">
+    <p class="highlight-description flex-1">
       To optimize your theme development experience, Shopify has established a set of best practices that you can refer
       to when developing your theme and setting up your toolchains and processes.
     </p>
@@ -75,12 +75,12 @@
     line-height: 1.4;
     margin-top: 1.5rem;
   }
-
+/*
   .icon {
     width: 300px;
   }
-
-  .highlights {
+*/
+  /*.highlights {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
@@ -102,20 +102,18 @@
     background-color: #eef3ff;
     color: rgb(92, 95, 98);
     line-height: 1.4;
-  }
+  }*/
 
   .highlight > * + * {
     margin-top: 1rem;
   }
-
+*/
   .highlight h3 {
     font-size: 1rem;
     color: rgb(32, 34, 35);
   }
 
-  .highlight-description {
-    flex: 1 1;
-  }
+*/
 
   .highlight a {
     display: flex;
